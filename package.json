@@ -1,0 +1,19 @@
+{
+  "name": "exports",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exports.js",
+  "dependencies": {
+    "async": "^3.2.2",
+    "aws-sdk": "^2.1046.0",
+    "lambdafs": "^2.0.3",
+    "path": "^0.12.7",
+    "security-holder": "^0.0.1-security"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
