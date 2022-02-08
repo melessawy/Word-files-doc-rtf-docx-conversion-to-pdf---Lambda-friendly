@@ -22,6 +22,8 @@ This is a Node JS function that can be deployed as an AWS Lambda function, to co
 
 - Layer 2: arn:aws:lambda:us-east-1:764866452798:layer:libreoffice-gzip:1
 
+(for extra reading on those layers: https://github.com/shelfio/libreoffice-lambda-layer)
+
 6- Set Lambda's execution timeout to the maximum time available (to ensure it can handle large files).
 
 7- Set Lambda's memory to the maximum, for the same above reason.
